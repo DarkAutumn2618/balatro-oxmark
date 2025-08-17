@@ -8,11 +8,11 @@ function OXMARK.ui.blind_ui.create_UIBox_blind_oxmark_popup(blind)
     localize({type='descriptions', set = 'Oxmarks', key = blind.key,
         vars = {
             colours = {
-                G.C.UI.TEXT_DARK,
+                loc_colour("attention"),
                 loc_colour("purple"),
                 loc_colour("blue"),
                 loc_colour("green"),
-                loc_colour("attention"),
+                loc_colour("red"),
             },
         },
         nodes = loc_txt,
