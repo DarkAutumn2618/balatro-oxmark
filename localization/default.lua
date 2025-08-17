@@ -1,5 +1,15 @@
 return {
     descriptions = {
+        Mod = {
+            oxmark = {
+                name = "Ox-Mark",
+                text = {
+                    "Adds hover-over tooltips to Blind icons that show ",
+                    "their origins in the Phoenician alphabet and from ",
+                    "there the connections to modern alphabets ",
+                },
+            },
+        },
         Oxmarks = {
             bl_ox = {
                 name = "Aleph",
@@ -250,6 +260,14 @@ return {
     },
     misc = {
         dictionary = {
+            oxmark_clickable_link = "Clickable Link",
+            oxmark_desc_sources = "Source:",
+            oxmark_desc_source_link_labels = {
+                "Wikipedia - Phoenician Alphabet",
+            },
+            oxmark_desc_source_link_urls = {
+                "https://en.wikipedia.org/wiki/Phoenician_alphabet#Table_of_letters",
+            },
             b_oxmark_enable_ingame = "In-Game Blind Hover",
             b_oxmark_enable_ingame_1 = "Disabled",
             b_oxmark_enable_ingame_2 = "Enabled",
