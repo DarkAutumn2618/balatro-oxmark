@@ -17,7 +17,7 @@
       "inject-field",
       "undefined-field"
   ],
-  "runtime.version": "LuaJIT",
+  "runtime.version": "Lua 5.1",
   "type.weakUnionCheck": true,
   "type.weakNilCheck": true
 }
