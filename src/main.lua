@@ -3,10 +3,12 @@ OXMARK = {
     -- Subfolders
     ui = {},
 }
+assert(SMODS.load_file("src/api.lua"))()
 assert(SMODS.load_file("src/ui/blind_ui.lua"))()
 assert(SMODS.load_file("src/ui/config_tab.lua"))()
 assert(SMODS.load_file("src/ui/mod_custom_ui.lua"))()
 assert(SMODS.load_file("src/ui/ui.lua"))()
+assert(SMODS.load_file("src/content.lua"))()
 assert(SMODS.load_file("src/overrides.lua"))()
 
 SMODS.current_mod.config_tab = OXMARK.ui.config_tab

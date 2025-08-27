@@ -15,7 +15,7 @@ return {
                 name = "Aleph",
                 text = {
                     "{C:attention}1st{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: ox, head of cattle",
+                    "Meaning: {B:1,C:white,E:2}ox{}, head of cattle",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}ʾālep{} [{f:8}ʔ{}]",
@@ -28,7 +28,7 @@ return {
                 name = "Beth",
                 text = {
                     "{C:attention}2nd{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: house",
+                    "Meaning: {B:1,C:white,E:2}house{}",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}bēt{} [b]",
@@ -41,7 +41,7 @@ return {
                 name = "Gimel",
                 text = {
                     "{C:attention}3rd{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: throwing stick/club (or camel)",
+                    "Meaning: throwing stick/{B:1,C:white,E:2}club{} (or camel)",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}gīml{} [g]",
@@ -55,7 +55,7 @@ return {
                 name = "Daleth",
                 text = {
                     "{C:attention}4th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: door (or fish)",
+                    "Meaning: door (or {B:1,C:white,E:2}fish{})",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}dālet{} [d]",
@@ -68,7 +68,7 @@ return {
                 name = "He",
                 text = {
                     "{C:attention}5th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: window (or jubilation)",
+                    "Meaning: {B:1,C:white,E:2}window{} (or jubilation)",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}he{} [h]",
@@ -81,7 +81,7 @@ return {
                 name = "Waw",
                 text = {
                     "{C:attention}6th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: hook",
+                    "Meaning: {B:1,C:white,E:2}hook{}",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}wāw{} [w]",
@@ -99,7 +99,7 @@ return {
                 name = "Zayin",
                 text = {
                     "{C:attention}7th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: weapon (or manacle)",
+                    "Meaning: weapon (or {B:1,C:white,E:2}manacle{})",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}zayin{} [z]",
@@ -112,7 +112,7 @@ return {
                 name = "Heth",
                 text = {
                     "{C:attention}8th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: courtyard (or wall?)",
+                    "Meaning: courtyard (or {B:1,C:white,E:2}wall{}?)",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}ḥēt{} [{f:8}ħ{}]",
@@ -125,7 +125,7 @@ return {
                 name = "Teth",
                 text = {
                     "{C:attention}9th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: wheel",
+                    "Meaning: {B:1,C:white,E:2}wheel{}",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}ṭēt{} [{f:8}tˤ{}]",
@@ -137,7 +137,7 @@ return {
                 name = "Yodh",
                 text = {
                     "{C:attention}10th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: arm, hand",
+                    "Meaning: {B:1,C:white,E:2}arm{}, hand",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}yod{} [j]",
@@ -164,7 +164,7 @@ return {
                 name = "Lamedh",
                 text = {
                     "{C:attention}12th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: goad (a farming implement)",
+                    "Meaning: {B:1,C:white,E:2}goad{} (a farming implement)",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}lāmed{} [l]",
@@ -177,7 +177,7 @@ return {
                 name = "Mem",
                 text = {
                     "{C:attention}13th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: water",
+                    "Meaning: {B:1,C:white,E:2}water{}",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}mēm{} [m]",
@@ -190,7 +190,7 @@ return {
                 name = "Nun",
                 text = {
                     "{C:attention}14th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: serpent (or fish)",
+                    "Meaning: {B:1,C:white,E:2}serpent{} (or fish)",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}nūn{} [n]",
@@ -215,7 +215,7 @@ return {
                 name = "Ayin",
                 text = {
                     "{C:attention}16th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: eye",
+                    "Meaning: {B:1,C:white,E:2}eye{}",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}ʿayin{} [{f:8}ʕ{}]",
@@ -229,7 +229,7 @@ return {
                 name = "Pe",
                 text = {
                     "{C:attention}17th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: mouth (or corner)",
+                    "Meaning: {B:1,C:white,E:2}mouth{} (or corner)",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}pē{} [p]",
@@ -242,7 +242,7 @@ return {
                 name = "Tsade",
                 text = {
                     "{C:attention}18th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: papyrus plant (or fish hook?)",
+                    "Meaning: papyrus {B:1,C:white,E:2}plant{} (or fish hook?)",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}ṣādē{} [{f:8}sˤ{}]",
@@ -254,7 +254,7 @@ return {
                 name = "Qoph",
                 text = {
                     "{C:attention}19th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: needle eye",
+                    "Meaning: {B:1,C:white,E:2}needle{} eye",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}qōp{} [q]",
@@ -268,7 +268,7 @@ return {
                 name = "Resh",
                 text = {
                     "{C:attention}20th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: head",
+                    "Meaning: {B:1,C:white,E:2}head{}",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}reš{} [r]",
@@ -281,7 +281,7 @@ return {
                 name = "Shin",
                 text = {
                     "{C:attention}21st{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: tooth (or sun)",
+                    "Meaning: {B:1,C:white,E:2}tooth{} (or sun)",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}šīn{} [{f:8}ʃ{}]",
@@ -294,7 +294,7 @@ return {
                 name = "Taw",
                 text = {
                     "{C:attention}22nd{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: mark",
+                    "Meaning: {B:1,C:white,E:2}mark{}",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}tāw{} [t]",
@@ -304,9 +304,9 @@ return {
                 },
             },
             bl_flint = {
-                name = "?????",
+                name = "#1#",
                 text = {
-                    "?????",
+                    "#1#",
                 },
             },
         },
