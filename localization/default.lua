@@ -310,6 +310,118 @@ return {
                 },
             },
         },
+        Oxmark_Alphabet = {
+            bl_ox = {
+                text = {
+                    "Aleph",
+                },
+            },
+            bl_house = {
+                text = {
+                    "Beth",
+                },
+            },
+            bl_club = {
+                text = {
+                    "Gimel",
+                },
+            },
+            bl_fish = {
+                text = {
+                    "Daleth",
+                },
+            },
+            bl_window = {
+                text = {
+                    "He",
+                },
+            },
+            bl_hook = {
+                text = {
+                    "Waw",
+                },
+            },
+            bl_manacle = {
+                text = {
+                    "Zayin",
+                },
+            },
+            bl_wall = {
+                text = {
+                    "Heth",
+                },
+            },
+            bl_wheel = {
+                text = {
+                    "Teth",
+                },
+            },
+            bl_arm = {
+                text = {
+                    "Yodh",
+                },
+            },
+            bl_psychic = {
+                text = {
+                    "Kaph",
+                },
+            },
+            bl_goad = {
+                text = {
+                    "Lamedh",
+                },
+            },
+            bl_water = {
+                text = {
+                    "Mem",
+                },
+            },
+            bl_serpent = {
+                text = {
+                    "Nun",
+                },
+            },
+            bl_pillar = {
+                text = {
+                    "Samekh",
+                },
+            },
+            bl_eye = {
+                text = {
+                    "Ayin",
+                },
+            },
+            bl_mouth = {
+                text = {
+                    "Pe",
+                },
+            },
+            bl_plant = {
+                text = {
+                    "Tsade",
+                },
+            },
+            bl_needle = {
+                text = {
+                    "Qoph",
+                },
+            },
+            bl_head = {
+                text = {
+                    "Resh",
+                },
+            },
+            bl_tooth = {
+                text = {
+                    "Shin",
+                },
+            },
+            bl_mark = {
+                text = {
+                    "Taw",
+                },
+            },
+        },
     },
     misc = {
         dictionary = {
@@ -328,6 +440,7 @@ return {
             b_oxmark_enable_collection = "Collection Page Blind Hover",
             b_oxmark_enable_collection_1 = "Disabled",
             b_oxmark_enable_collection_2 = "Enabled (Hold Shift)",
+            oxmark_b_alphabet_tab = "Alphabet",
         },
     },
 }
