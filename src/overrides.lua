@@ -41,7 +41,7 @@ function Blind.stop_hover(self)
 end
 
 
-local create_UIBox_blind_popup_ref = create_UIBox_blind_popup
+OXMARK.overrides.create_UIBox_blind_popup_original = create_UIBox_blind_popup
 function create_UIBox_blind_popup(blind, discovered, vars)
     if SMODS.Mods.oxmark.config.enable_collection == OXMARK.config_options.enable_collection.ENABLED_SHIFT
         and (G.CONTROLLER.held_keys["lshift"] or G.CONTROLLER.held_keys["rshift"])
@@ -51,5 +51,5 @@ function create_UIBox_blind_popup(blind, discovered, vars)
         end
     end
 
-    return create_UIBox_blind_popup_ref(blind, discovered, vars)
+    return OXMARK.overrides.create_UIBox_blind_popup_original(blind, discovered, vars)
 end

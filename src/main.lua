@@ -1,7 +1,8 @@
 OXMARK = {
     mod = SMODS.current_mod,
-    -- Subfolders
+    -- Submodules
     ui = {},
+    overrides = {},
 }
 assert(SMODS.load_file("src/api.lua"))()
 assert(SMODS.load_file("src/ui/alphabet_tab.lua"))()

@@ -5,9 +5,13 @@ function OXMARK.ui.alphabet_tab()
         tab_definition_function = function()
             ---@type SMODS.Blind[][]
             local blind_matrix = { {}, {} }
-            local col_size = math.ceil(#OXMARK.content.alphabet_blinds/#blind_matrix)
+            local row_size = #blind_matrix
+            local col_size = math.ceil(#OXMARK.content.alphabet_blinds/row_size)
 
             for i, blind_key in ipairs(OXMARK.content.alphabet_blinds) do
+                local col_index = math.floor((i-1)/col_size)+1
+                local row_index = ((i-1) % col_size)+1
+
                 ---@type SMODS.Blind
                 local blind = G.P_BLINDS[blind_key]
                 local discovered = true --blind.discovered
@@ -28,8 +32,18 @@ function OXMARK.ui.alphabet_tab()
                             temp_blind.hover_tilt = 3
                             temp_blind:juice_up(0.05, 0.02)
                             play_sound("chips1", math.random()*0.1 + 0.55, 0.12)
-                            temp_blind.config.h_popup = OXMARK.ui.blind_ui.create_UIBox_blind_oxmark_popup(blind) --create_UIBox_blind_popup(blind, discovered)
-                            temp_blind.config.h_popup_config ={align = "cl", offset = {x=-0.1,y=0},parent = temp_blind}
+
+
+                            oxmark_popup = OXMARK.ui.blind_ui.create_UIBox_blind_oxmark_popup(blind)
+                            oxmark_popup = oxmark_popup.nodes[1].nodes[1]
+                            info_boxes = { OXMARK.overrides.create_UIBox_blind_popup_original(blind, blind.discovered) }
+                            temp_blind.config.h_popup = {n=G.UIT.ROOT, config = {align = "cm", colour = G.C.CLEAR, instance_type = "POPUP"}, nodes={
+                                {n=G.UIT.C, config={align = "cm", func = "show_infotip", object = Moveable(),ref_table = next(info_boxes) and info_boxes or nil}, nodes={
+                                    oxmark_popup,
+                                }},
+                            }}
+                            temp_blind.config.h_popup_config = {align=temp_blind.T.y > G.ROOM.T.h/2 and "tm" or "bm", offset = {x=0,y=temp_blind.T.y > G.ROOM.T.h/2 and -0.1 or 0.1}, parent = temp_blind}
+
                             Node.hover(temp_blind)
                         end
                     end
@@ -52,7 +66,7 @@ function OXMARK.ui.alphabet_tab()
                     }},
                 }}
 
-                blind_matrix[math.floor((i-1)/col_size)+1][((i-1) % col_size)+1] = blind_box
+                blind_matrix[col_index][row_index] = blind_box
             end
 
 
