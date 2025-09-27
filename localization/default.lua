@@ -5,8 +5,8 @@ return {
                 name = "Ox-Mark",
                 text = {
                     "Adds hover-over tooltips to Blind icons that show ",
-                    "their origins in the Phoenician alphabet and from ",
-                    "there the connections to modern alphabets ",
+                    "their origins in the Phoenician alphabet and the ",
+                    "connections to modern alphabets ",
                 },
             },
         },
@@ -20,7 +20,7 @@ return {
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}ʾālep{} [{f:8}ʔ{}]",
                     "{f:8}⮕{} {C:blue}Hebrew{} - Alef <{f:8}א{}> [{f:8}ʔ{}~{f:8}∅{}]",
-                    "{f:8}⮕{} {C:green}Greek{} - Alpha <{f:8}Α{}/{f:8}α{}> [a]",
+                    "{f:8}⮕{} {C:green}Greek{} - Alpha <{f:8}Α{}/{f:8}α{}> [a({f:8}ː{})]{f:8}→{}[a]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <A/a>",
                 },
             },
@@ -46,7 +46,7 @@ return {
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}gīml{} [g]",
                     "{f:8}⮕{} {C:blue}Hebrew{} - Gimel <{f:8}ג{}> [{f:8}ɣ{}]/[g]",
-                    "{f:8}⮕{} {C:green}Greek{} - Gamma <{f:8}Γ{}/{f:8}γ{}> [g]{f:8}→{}[{f:8}ɣ{}]/[{f:8}ŋ{}]",
+                    "{f:8}⮕{} {C:green}Greek{} - Gamma <{f:8}Γ{}/{f:8}γ{}> ([g]{f:8}→{}[{f:8}ɣ{}~{f:8}ʝ{}])/[{f:8}ŋ{}]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <C/c>",
                     "{f:8}⮕⮕⮕{} {C:red}Latin{} - <G/g>",
                 },
@@ -88,7 +88,7 @@ return {
                     "{f:8}⮕{} {C:blue}Hebrew{} - Vav <{f:8}ו{}> [v]/[w]",
                     "{f:8}⮕{} {C:green}Greek{} - Digamma <{f:8}Ϝ{}/{f:8}ϝ{}> (archaic) [w]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <F/f>",
-                    "{f:8}⮕{} {C:green}Greek{} - Upsilon <{f:8}Υ{}/{f:8}υ{}> [u]{f:8}→{}[y]{f:8}→{}[i]",
+                    "{f:8}⮕{} {C:green}Greek{} - Upsilon <{f:8}Υ{}/{f:8}υ{}> [u({f:8}ː{})]{f:8}→{}[y({f:8}ː{})]{f:8}→{}[i]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <V/v>",
                     "{f:8}⮕⮕⮕{} {C:red}Latin{} - <U/u>",
                     "{f:8}⮕⮕⮕{} {C:red}Latin{} - <W/w>",
@@ -142,7 +142,7 @@ return {
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}yod{} [j]",
                     "{f:8}⮕{} {C:blue}Hebrew{} - Yod <{f:8}י{}> [j]",
-                    "{f:8}⮕{} {C:green}Greek{} - Iota <{f:8}Ι{}/{f:8}ι{}> [i]",
+                    "{f:8}⮕{} {C:green}Greek{} - Iota <{f:8}Ι{}/{f:8}ι{}> [i({f:8}ː{})]{f:8}→{}[i]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <I/i>",
                     "{f:8}⮕⮕⮕{} {C:red}Latin{} - <J/j>",
                 },
@@ -155,8 +155,8 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}kāp{} [k]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Kaf <{f:8}כ{}> [x~{f:8}χ{}]/[k]",
-                    "{f:8}⮕{} {C:green}Greek{} - Kappa <{f:8}Κ{}/{f:8}κ{}> [k]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Kaf <{f:8}כ{}/{f:8}ך{}> [x~{f:8}χ{}]/[k]",
+                    "{f:8}⮕{} {C:green}Greek{} - Kappa <{f:8}Κ{}/{f:8}κ{}> [k]{f:8}→{}[k~c]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <K/k>",
                 },
             },
@@ -181,7 +181,7 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}mēm{} [m]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Mem <{f:8}מ{}> [m]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Mem <{f:8}מ{}/{f:8}ם{}> [m]",
                     "{f:8}⮕{} {C:green}Greek{} - Mu <{f:8}Μ{}/{f:8}μ{}> [m]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <M/m>",
                 },
@@ -194,7 +194,7 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}nūn{} [n]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Nun <{f:8}נ{}> [n]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Nun <{f:8}נ{}/{f:8}ן{}> [n]",
                     "{f:8}⮕{} {C:green}Greek{} - Nu <{f:8}Ν{}/{f:8}ν{}> [n]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <N/n>",
                 },
@@ -203,7 +203,7 @@ return {
                 name = "Samekh",
                 text = {
                     "{C:attention}15th{} letter of the {X:purple,C:white}Phoenician{} Alphabet",
-                    "Meaning: fish",
+                    "Meaning: {B:1,C:white,E:2}pillar{}?",
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}śāmek{} [s]",
@@ -233,7 +233,7 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}pē{} [p]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Pe <{f:8}פ{}> [f]/[p]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Pe <{f:8}פ{}/{f:8}ף{}> [f]/[p]",
                     "{f:8}⮕{} {C:green}Greek{} - Pi <{f:8}Π{}/{f:8}π{}> [p]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <P/p>",
                 },
@@ -246,7 +246,7 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}ṣādē{} [{f:8}sˤ{}]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Tsadi <{f:8}צ{}> [{f:8}sˤ{}~ts]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Tsadi <{f:8}צ{}/{f:8}ץ{}> [{f:8}sˤ{}~ts]",
                     "{f:8}⮕{} {C:green}Greek{} - San <{f:8}Ϻ{}/{f:8}ϻ{}> (archaic) [s]",
                 },
             },
@@ -258,7 +258,7 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}qōp{} [q]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Qof <{f:8}ק{}> [q]{f:8}→{}[k]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Qof <{f:8}ק{}> [q~k]",
                     "{f:8}⮕{} {C:green}Greek{} - Koppa <{f:8}Ϙ{}/{f:8}ϙ{}> (archaic) [k]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <Q/q>",
                     "{f:8}⮕{} {C:green}Greek{} -  Phi <{f:8}Φ{}/{f:8}φ{}> [{f:8}pʰ{}]{f:8}→{}[f]",
@@ -272,8 +272,8 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}reš{} [r]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Resh <{f:8}ר{}> [{f:8}ʁ{}](r)",
-                    "{f:8}⮕{} {C:green}Greek{} - Rho <{f:8}Ρ{}/{f:8}ρ{}> [r]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Resh <{f:8}ר{}> [{f:8}ʁ{}~r]",
+                    "{f:8}⮕{} {C:green}Greek{} - Rho <{f:8}Ρ{}/{f:8}ρ{}> [r~{f:8}ɾ{}]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <R/r>",
                 },
             },
@@ -286,7 +286,7 @@ return {
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}šīn{} [{f:8}ʃ{}]",
                     "{f:8}⮕{} {C:blue}Hebrew{} - Shin <{f:8}ש{}> [{f:8}ʃ{}]/[s]",
-                    "{f:8}⮕{} {C:green}Greek{} - Sigma <{f:8}Σ{}/{f:8}σ{}> [s]",
+                    "{f:8}⮕{} {C:green}Greek{} - Sigma <{f:8}Σ{}/{f:8}σ{}/{f:8}ς{}> [s~z]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <S/s>",
                 },
             },
@@ -426,12 +426,20 @@ return {
     misc = {
         dictionary = {
             oxmark_clickable_link = "Clickable Link",
-            oxmark_desc_sources = "Source:",
+            oxmark_desc_sources = "Sources:",
             oxmark_desc_source_link_labels = {
-                "Wikipedia - Phoenician Alphabet",
+                "Wikipedia - Phoenician alphabet",
+                "Wikipedia - Hebrew alphabet",
+                "Wikipedia - Help:IPA/Hebrew",
+                "Wikipedia - Greek alphabet",
+                "Wikipedia - Help:IPA/Greek",
             },
             oxmark_desc_source_link_urls = {
                 "https://en.wikipedia.org/wiki/Phoenician_alphabet#Table_of_letters",
+                "https://en.wikipedia.org/wiki/Hebrew_alphabet#Pronunciation",
+                "https://en.wikipedia.org/wiki/Help:IPA/Hebrew",
+                "https://en.wikipedia.org/wiki/Greek_alphabet#Letters",
+                "https://en.wikipedia.org/wiki/Help:IPA/Greek",
             },
             b_oxmark_enable_ingame = "In-Game Blind Hover",
             b_oxmark_enable_ingame_1 = "Disabled",
