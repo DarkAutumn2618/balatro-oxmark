@@ -6,5 +6,6 @@
     "prefix": "oxmark",
     "main_file": "src/main.lua",
     "config_file": "src/config.lua",
+    "priority": -100,
     "version": "0.0.1"
 }

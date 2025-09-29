@@ -24,14 +24,14 @@ Navigate to **Mods** > **Ox-Mark** > **Alphabet**
 
 ## Config
 
-* **In-Game Blind Hover**: Whether the tooltip appears when hovering over the Blind chip (see above image)
+* **In-Game Blind Hover** - Whether the tooltip appears when hovering over the Blind chip (see above image)
     * **Disabled**
     * **Enabled**
-    * **Enabled (Hold Shift)**: Shift key must be held before hovering over the chip
+    * **Enabled (Hold Shift)** - Shift key must be held before hovering over the chip
 
-* **Collection Page Blind Hover**: Whether the Ox-Mark tooltip appears when hovering over the Blind chip in the Collection
+* **Collection Page Blind Hover** - Whether the Ox-Mark tooltip appears when hovering over the Blind chip in the Collection
     * **Disabled**
-    * **Enabled (Hold Shift)**: Shift key must be held before hovering over the chip
+    * **Enabled (Hold Shift)** - Shift key must be held before hovering over the chip
 
 # Notes
 
@@ -63,3 +63,13 @@ Navigate to **Mods** > **Ox-Mark** > **Alphabet**
 * [Wikipedia - Greek alphabet](https://en.wikipedia.org/wiki/Greek_alphabet#Letters)
 * [Wikipedia - Help:IPA/Greek](https://en.wikipedia.org/wiki/Help:IPA/Greek)
 * [Wikipedia - Help:IPA/English](https://en.wikipedia.org/wiki/Help:IPA/English)
+
+# Modding
+
+Descriptions for other Blinds (modded & vanilla) can be added by adding in [localization](https://github.com/Steamodded/smods/wiki/Localization)
+
+`descriptions.Oxmark[blind_key]`
+
+* `name: string` - Displayed as the title at the top
+* `text: string[]` - List of lines of text added into the white description box
+* `unlock: string[]?` - (Optional) List of lines of text added into an additional white description box
