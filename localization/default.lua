@@ -4,9 +4,8 @@ return {
             oxmark = {
                 name = "Ox-Mark",
                 text = {
-                    "Adds hover-over tooltips to Blind icons that show ",
-                    "their origins in the Phoenician alphabet and the ",
-                    "connections to modern alphabets ",
+                    "Gives info about the Phoenician alphabet using ",
+                    "hover-over tooltips on the Blind icons ",
                 },
             },
         },
@@ -45,7 +44,7 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}gīml{} [g]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Gimel <{f:8}ג{}> [{f:8}ɣ{}]/[g]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Gimel <{f:8}ג{}> [{f:8}ɣ{}~g]/[g]",
                     "{f:8}⮕{} {C:green}Greek{} - Gamma <{f:8}Γ{}/{f:8}γ{}> ([g]{f:8}→{}[{f:8}ɣ{}~{f:8}ʝ{}])/[{f:8}ŋ{}]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <C/c>",
                     "{f:8}⮕⮕⮕{} {C:red}Latin{} - <G/g>",
@@ -59,7 +58,7 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}dālet{} [d]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Dalet <{f:8}ד{}> [{f:8}ð{}]/[d]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Dalet <{f:8}ד{}> [{f:8}ð{}~d]/[d]",
                     "{f:8}⮕{} {C:green}Greek{} - Delta <{f:8}Δ{}/{f:8}δ{}> [d]{f:8}→{}[{f:8}ð{}]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <D/d>",
                 },
@@ -298,7 +297,7 @@ return {
                 },
                 unlock = {
                     "{X:purple,C:white}Phoenician{} - {f:8,s:0.88}tāw{} [t]",
-                    "{f:8}⮕{} {C:blue}Hebrew{} - Tav <{f:8}ת{}> [{f:8}θ{}]/[t]",
+                    "{f:8}⮕{} {C:blue}Hebrew{} - Tav <{f:8}ת{}> [{f:8}θ{}~t~s]/[t]",
                     "{f:8}⮕{} {C:green}Greek{} - Tau <{f:8}Τ{}/{f:8}τ{}> [t]",
                     "{f:8}⮕⮕{} {C:red}Latin{} - <T/t>",
                 },
@@ -433,6 +432,7 @@ return {
                 "Wikipedia - Help:IPA/Hebrew",
                 "Wikipedia - Greek alphabet",
                 "Wikipedia - Help:IPA/Greek",
+                "Wikipedia - Help:IPA/English",
             },
             oxmark_desc_source_link_urls = {
                 "https://en.wikipedia.org/wiki/Phoenician_alphabet#Table_of_letters",
@@ -440,6 +440,7 @@ return {
                 "https://en.wikipedia.org/wiki/Help:IPA/Hebrew",
                 "https://en.wikipedia.org/wiki/Greek_alphabet#Letters",
                 "https://en.wikipedia.org/wiki/Help:IPA/Greek",
+                "https://en.wikipedia.org/wiki/Help:IPA/English",
             },
             b_oxmark_enable_ingame = "In-Game Blind Hover",
             b_oxmark_enable_ingame_1 = "Disabled",
