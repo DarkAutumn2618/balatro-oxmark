@@ -1,0 +1,6 @@
+.gitignore export-ignore
+.gitattributes export-ignore
+.github export-ignore
+README.md export-ignore
+.luarc.jsonc export-ignore
+lsp_def export-ignore
