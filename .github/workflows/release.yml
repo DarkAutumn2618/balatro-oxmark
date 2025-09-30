@@ -1,0 +1,35 @@
+name: Draft Release
+on: workflow_dispatch
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      MOD_METADATA: oxmark.json
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - name: Get Release Name
+        id: get-release-name
+        run: |
+          MOD_ID=$(jq -re '.id' "$MOD_METADATA")
+          echo "MOD_ID=$MOD_ID" >> "$GITHUB_ENV"
+          MOD_VERSION=$(jq -re '.version' "$MOD_METADATA")
+          echo "MOD_VERSION=$MOD_VERSION" >> "$GITHUB_ENV"
+      - name: Build
+        run: git archive -o "${MOD_ID}.zip" --prefix="${MOD_ID}/" ${{ github.sha }}
+      - name: Release
+        id: release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: v${{ env.MOD_VERSION }}
+          tag_name: v${{ env.MOD_VERSION }}
+          target_commitish: ${{ github.sha }}
+          draft: true
+          files: ${{ env.MOD_ID }}.zip
+          fail_on_unmatched_files: true
+      - name: Write Summary
+        run: echo '[Release drafted](${{ steps.release.outputs.url }})' >> "$GITHUB_STEP_SUMMARY"
