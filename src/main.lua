@@ -22,3 +22,5 @@ function SMODS.current_mod.extra_tabs()
         OXMARK.ui.alphabet_tab(),
     }
 end
+
+SMODS.Atlas({ key = "modicon", atlas_table = "ANIMATION_ATLAS", path = "modicon.png", px = 34, py = 34, frames = 42 })
