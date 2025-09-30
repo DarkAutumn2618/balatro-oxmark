@@ -43,7 +43,7 @@ function OXMARK.ui.mod_custom_ui(nodes)
     local clickable_link_title = localize("oxmark_clickable_link")
     for i, _ in ipairs(source_link_labels) do
         table.insert(source_links, {n=G.UIT.R, config={align = "tl"}, nodes={
-            {n = G.UIT.T, config = {shadow = true, scale = 0.75 * 0.5, colour = G.C.BLUE,-- underline = G.C.BLUE,
+            {n = G.UIT.T, config = {shadow = true, scale = 0.75 * 0.5, colour = G.C.BLUE, underline = G.C.BLUE,
                 button = "oxmark_clickable_link",
                 text = source_link_labels[i],
                 tooltip = {
