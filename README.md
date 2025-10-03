@@ -1,6 +1,6 @@
 # Ox-Mark
 
-A mod for [Balatro](https://store.steampowered.com/app/2379780/Balatro/) that shows trivia about the [Phoenician alphabet](https://en.wikipedia.org/wiki/Phoenician_alphabet) using hover-over tooltips on the Blind icons
+A [Balatro](https://store.steampowered.com/app/2379780/Balatro/) mod that shows trivia about the [Phoenician alphabet](https://en.wikipedia.org/wiki/Phoenician_alphabet) using hover-over tooltips on the Blind icons
 
 Extra info for language nerds
 
@@ -32,6 +32,14 @@ Navigate to **Mods** > **Ox-Mark** > **Alphabet**
 * **Collection Page Blind Hover** - Whether the Ox-Mark tooltip appears when hovering over the Blind chip in the Collection
     * **Disabled**
     * **Enabled (Hold Shift)** - Shift key must be held before hovering over the chip
+
+## Installation
+
+1. Install [Steamodded](https://github.com/Steamodded/smods)
+
+2. Download this mod's zip file from the [latest release](https://github.com/DarkAutumn2618/balatro-oxmark/releases/latest)
+
+3. Open the zip file and place the **oxmark** folder into the Balatro mods folder
 
 # Notes
 
