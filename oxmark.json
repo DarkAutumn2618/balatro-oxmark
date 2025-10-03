@@ -2,7 +2,7 @@
     "id": "oxmark",
     "name": "Ox-Mark",
     "author": ["DarkAutumn2618"],
-    "description": "Gives info about the Phoenician alphabet using hover-over tooltips on the Blind icons",
+    "description": "Shows trivia about the Phoenician alphabet using hover-over tooltips on the Blind icons",
     "prefix": "oxmark",
     "main_file": "src/main.lua",
     "config_file": "src/config.lua",

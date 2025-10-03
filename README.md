@@ -1,6 +1,6 @@
 # Ox-Mark
 
-A mod for [Balatro](https://store.steampowered.com/app/2379780/Balatro/) that gives info about the [Phoenician alphabet](https://en.wikipedia.org/wiki/Phoenician_alphabet) using hover-over tooltips on the Blind icons
+A mod for [Balatro](https://store.steampowered.com/app/2379780/Balatro/) that shows trivia about the [Phoenician alphabet](https://en.wikipedia.org/wiki/Phoenician_alphabet) using hover-over tooltips on the Blind icons
 
 Extra info for language nerds
 

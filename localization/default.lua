@@ -4,7 +4,7 @@ return {
             oxmark = {
                 name = "Ox-Mark",
                 text = {
-                    "Gives info about the Phoenician alphabet using ",
+                    "Shows trivia about the Phoenician alphabet using ",
                     "hover-over tooltips on the Blind icons ",
                 },
             },
